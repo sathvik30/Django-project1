@@ -26,7 +26,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG') == 'True'
 
-ALLOWED_HOSTS = ['https://django-project1-02b3.onrender.com']
+ALLOWED_HOSTS = ['django-project1-02b3.onrender.com']
+CSRF_TRUSTED_ORIGINS = [
+    'https://django-project1-02b3.onrender.com',
+]
 
 
 # Application definition

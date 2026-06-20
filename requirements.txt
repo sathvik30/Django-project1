@@ -1,11 +1,9 @@
 asgiref==3.11.1
 certifi==2026.6.17
 charset-normalizer==3.4.7
-cloudinary==1.44.2
 crispy-bootstrap4==2026.2
 distlib==0.4.1
 Django==6.0.6
-django-cloudinary-storage==0.3.0
 django-crispy-forms==2.6
 filelock==3.29.1
 gunicorn==26.0.0
